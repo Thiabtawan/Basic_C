@@ -110,31 +110,6 @@ int main() {
 }
 ```
 
-## 4. do-while-loop (โบนัส)
-
-### รูปแบบพื้นฐาน
-```c
-do {
-    // คำสั่งที่ต้องการทำซ้ำ
-} while (เงื่อนไข);
-```
-
-### ตัวอย่าง
-```c
-#include <stdio.h>
-
-int main() {
-    int number;
-    
-    do {
-        printf("กรอกตัวเลข (0 เพื่อหยุด): ");
-        scanf("%d", &number);
-        printf("คุณกรอก: %d\n", number);
-    } while (number != 0);
-    
-    return 0;
-}
-```
 
 ## สรุปความแตกต่าง
 
